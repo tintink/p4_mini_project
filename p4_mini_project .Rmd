@@ -7,7 +7,7 @@ output:
 ---
 
 
-(Note: Best way to read blog is either through this Hackmd link: or the HTML file in submission folder. 
+(Note: Best way to read blog is either through this Hackmd link:https://hackmd.io/@tintink/B13ubPXvu or the HTML file in submission folder. 
        Best way to mark code is to look at the .Rmd file in submission folder, much clearer to see as comments are properly positioned)
 
 Over the past 12 months, the SARS-CoV-2 virus has run riot through our societies. Not only has it lead to considerable loss of life in the short term, but the economic and societal impacts caused by the pandemic and its resulting restrictions have also been devastating. The challenges faced by policymakers in recent times have been unprecedented. With a multitude of different approaches to keep the virus at bay, many have chosen to plunge their populations into prolonged lockdowns and social distancing restrictions. 
@@ -352,11 +352,11 @@ https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/r
 owid_data.csv 
 
 ```{r fig.height=6, fig.width=10, message=FALSE}
-ggsave("p4_plots/covid_mortality_rates_plot.png", covid_mortality_rates_plot,width = 10, height = 6, dpi=200)
-ggsave("p4_plots/mortality_rate_comparison_plot.png", mortality_rate_comparison_plot,width = 10, height = 6, dpi=200)
-ggsave("p4_plots/total_deaths_comparison_plot.png", total_deaths_comparison_plot,width = 10, height = 6, dpi=200)
-ggsave("p4_plots/new_rtt_period_plot.png", new_rtt_period_plot,width = 10, height = 6, dpi=100)
-ggsave("p4_plots/total_deaths_plot_G7.png", total_deaths_plot_G7,width = 10, height = 6, dpi=200)
+ggsave("p4_plots/covid_mortality_rates_plot.png", covid_mortality_rates_plot,width = 10, height = 6, dpi=300)
+ggsave("p4_plots/mortality_rate_comparison_plot.png", mortality_rate_comparison_plot,width = 10, height = 6, dpi=300)
+ggsave("p4_plots/total_deaths_comparison_plot.png", total_deaths_comparison_plot,width = 10, height = 6, dpi=300)
+ggsave("p4_plots/new_rtt_period_plot.png", new_rtt_period_plot,width = 10, height = 6, dpi=300)
+ggsave("p4_plots/total_deaths_plot_G7.png", total_deaths_plot_G7,width = 10, height = 6, dpi=300)
 ```
 ```
 
